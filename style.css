@@ -1,0 +1,85 @@
+body{
+    background-image: url(2-triangles-background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: sans-serif;
+    
+}
+.vcard {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8);
+    width: 400px;
+    margin: auto;
+    text-align: center;
+    border-radius: 10%;
+    
+  }
+
+
+  
+  .title {
+    color: darkgoldenrod;
+    font-weight: bolder;
+    font-size: 18px;
+  }
+  
+  button {
+    border-radius: 10px;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background: linear-gradient(135deg, #000000 0%, #103D5B 50%, #BCB5B7 100%);
+    text-align: center;
+    cursor: pointer;
+    width: auto;
+    font-size: 18px;
+  }
+  
+  a {
+    text-decoration: none;
+    font-size: 22px;
+    color: rgb(31, 24, 7);
+    
+  }
+  
+  button:hover, a:hover {
+    opacity: 0.7;
+  }
+
+  h2{
+      text-align: center;
+      font-family: Georgia;
+  }
+  img {
+      width: 70%;
+      border-radius: 30%;
+      position: relative;
+      top: 10px;
+      opacity: 0.8;
+  }
+  
+  img:hover{
+      opacity: 1;
+  }
+
+#cnt a{
+     color: white;
+ }
+
+ 
+.tab section {
+    display: none;
+}
+
+.tab section:target {
+    display: block;
+    margin-bottom: 10px;
+}
+
+#btn {
+    position: relative;
+    bottom: 5px;
+}
+.icons{
+    margin: 24px 0;
+}
